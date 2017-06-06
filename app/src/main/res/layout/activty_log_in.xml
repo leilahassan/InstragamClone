@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/layer_list">
+
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:text="Don't have an account? Sign Up"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/half_overlay"/>
+
+    <TextView
+        android:text="Language: English (united States)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="@color/colorWhite"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView"
+        android:layout_marginRight="45dp"
+        android:layout_marginEnd="45dp" />
+
+    <Button
+        android:text="Login in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:textSize="15sp"
+        android:layout_margin="20dp"
+        android:background="@drawable/border"
+        android:textColor="@color/colorWhite"
+        android:layout_below="@+id/editText2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="18dp" />
+
+    <TextView
+        android:text="Forgot your Password?Get help signing in."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        android:layout_below="@+id/button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:background="@drawable/border"
+        android:backgroundTint="#b02887"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        android:id="@+id/editText2"
+        android:hint="password"
+        android:textColorHint="@color/colorWhite"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/editText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Username"
+        android:background="@drawable/border"
+        android:backgroundTint="#b02887"
+        android:textColorHint="@color/colorWhite"
+        android:ems="10"
+        android:padding="10dp"
+        android:id="@+id/editText"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/facebookicon"
+        android:text="Log in with Facebook"
+        android:textColor="@color/colorWhite"
+        android:drawableLeft="@mipmap/facebookicon"
+        android:textSize="15sp"
+        android:layout_marginBottom="23dp"
+        android:layout_above="@+id/button4"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:gravity="center"
+        android:text="OR"
+        android:textColor="@color/colorWhite"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/Iconinstagram"
+        android:drawableLeft="@mipmap/Iconinstagram"
+        android:id="@+id/imageView"
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignRight="@+id/editText"
+        android:layout_alignEnd="@+id/editText" />
+
+
+</RelativeLayout>
